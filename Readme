@@ -1,0 +1,60 @@
+email and password
+
+- admin@gmail.com
+-123\
+
+
+
+<footer class="bg-white">
+    <div class="container py-5">
+        <div class="row mb-4">
+            <div class="col-lg-4 mb-3 mb-lg-0 text-center text-lg-start">
+                <!-- Adding the logo here -->
+                <img src="logo/kathikaastheticcenter.png" alt="Karthika Aesthetic Centre Logo" class=" mb-2" style="max-width: 200px;">
+                
+            </div>
+            <div class="col-lg-4 mb-3 mb-lg-0">
+                <div class="d-flex justify-content-center">
+                    <a href="https://www.facebook.com/beautyparlourcochin/" class="mx-2">
+                        <i class="fab fa-facebook-f fa-2x" style="color: #8a7a5c;"></i> 
+                    </a>
+                    <a href="https://www.instagram.com/karthikasaestheticcentre/?hl=en" class="mx-2">
+                        <i class="fab fa-instagram fa-2x" style="color: #8a7a5c;"></i>
+                    </a>
+                    <a href="https://www.youtube.com/@karthikasprofessionalbeaut4228" class="mx-2">
+                        <i class="fab fa-youtube fa-2x" style="color: #8a7a5c;"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-3 mb-lg-0">
+                <nav class="nav justify-content-around">
+                    <a class="nav-link px-2" href="About Us.html">About</a>
+                    <a class="nav-link px-2" href="Treatments.html">Treatments</a>
+                    <a class="nav-link px-2" href="Career.html">Careers</a>
+                    <a class="nav-link px-2" href="Contact Us.html">Contact us</a>
+                    <a class="nav-link px-2" href="Appointment.php">Appointment</a>
+                </nav>
+            </div>
+        </div>
+        <div class="row mb-4">
+            <div class="col-12 text-center add_div_footer">
+                <h4 class="text-muted">Karthika Aesthetic Centre</h4>
+                <p class="mb-0">
+                    Kaloor - Kathrikadavu Road<br>
+                    Near Arabian Nights<br>
+                    Kaloor, Cochin, Kerala<br>
+                    682017
+                </p>
+            </div>
+        </div>
+        <div class="row border-top pt-3">
+            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                <p class="mb-0">&copy; 2024 Karthika Aesthetic. All rights reserved. All trademarks acknowledged.</p>
+            </div>
+            <div class="col-md-6 text-center text-md-end  cond_div_footer">
+                <a href="#" class="me-3  text-muted">Privacy Policy</a>
+                <a href="#" class=" text-muted">Terms and Conditions</a>
+            </div>  
+        </div>
+    </div>
+</footer>

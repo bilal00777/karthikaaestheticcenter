@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Body Treatments - Karthika's Aesthetic Centre</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Common CSS -->
+    <link rel="stylesheet" href="commonstyle.css">
+    
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #f8f8f8;
+        }
+
+        .navbar-brand {
+            font-size: 2rem;
+        }
+
+        .navbar-brand .karthika {
+            font-family: 'Georgia', serif;
+            font-weight: bold;
+            color: #8a7a5c;
+            padding: 5px 10px;
+            border-radius: 5px;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+        }
+
+        .navbar-brand .aesthetic-centre {
+            font-weight: 300;
+            color: black;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+        }
+
+        .nav-link {
+            color: initial;
+            text-decoration: none;
+            border-bottom: 2px solid transparent;
+            transition: border-bottom 0.3s ease, color 0.3s ease;
+        }
+
+        .nav-link:hover {
+            color: #8a7a5c !important;
+            border-bottom: 2px solid #8a7a5c;
+        }
+
+        .timing-info {
+            background-color: #8a7a5c;
+            color: #fff;
+            padding: 5px 0;
+            text-align: center;
+            font-size: 0.95rem;
+        }
+
+        .body-treatments-container {
+            padding: 80px 50px;
+            background-color: #fff;
+        }
+
+        .treatment-item {
+            margin-bottom: 50px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 20px;
+        }
+
+        .treatment-item h4 {
+            font-size: 1.75rem;
+            color: #8a7a5c;
+            margin-bottom: 15px;
+        }
+
+        .treatment-item p {
+            font-size: 1rem;
+            color: #555;
+        }
+
+        .treatment-item img {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: white;
+            padding: 50px 20px;
+            color: #333;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Timing Information -->
+    <div class="timing-info">
+        <span class="timing-item">Monday to Saturday 10:00 AM - 7:00 PM</span>
+        <span class="timing-separator mx-3">|</span>
+        <span class="timing-item">Sunday 10:00 AM - 1:30 PM</span>
+    </div>
+
+    <!-- Header/Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.php">
+    <img src="logo/kathikaastheticcenter.png" alt="Karthika's Aesthetic Centre" class="logo">
+    <span class="karthika">Karthika's</span> <span class="aesthetic-centre">Aesthetic Centre</span>
+</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link px-3" href="About Us.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-3" href="Treatments.html">Treatments</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-3" href="Career.html">Career</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-3" href="Contact Us.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-3" href="Appointment.php">Appointment</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Body Treatments Section -->
+    <section class="body-treatments-container">
+        <div class="container">
+            <h2 class="text-center mb-5" style="color: #8a7a5c;">Body Treatments</h2>
+            <!-- Treatment 1 -->
+            <div class="treatment-item">
+                <h4>Deep Nourishment</h4>
+                <p>Deep nourishment treatment for the body involves using rich, nourishing ingredients to hydrate and
+                    rejuvenate the skin, leaving it soft and smooth. It helps in replenishing moisture and providing
+                    essential nutrients to your skin.</p>
+                <img src="images/deepnorishmnet.jpeg" alt="Deep Nourishment">
+            </div>
+            <!-- Treatment 2 -->
+            <div class="treatment-item">
+                <h4>Anti-Hair Fall Treatments</h4>
+                <p>Our anti-hair fall treatments target the underlying causes of hair loss, using customized products
+                    and therapies to strengthen hair roots and reduce breakage, leaving you with thicker, healthier hair.
+                </p>
+                <img src="images/anti_hair_fall.jpg" alt="Anti-Hair Fall Treatments">
+            </div>
+            <!-- Treatment 3 -->
+            <div class="treatment-item">
+                <h4>Medi Spa Treatments</h4>
+                <p>Medi Spa treatments offer a relaxing and therapeutic approach to body care. Combining spa luxury with
+                    medical expertise, these treatments help in addressing skin concerns, detoxification, and overall
+                    body rejuvenation.</p>
+                <img src="images/medi_spa.jpg" alt="Medi Spa Treatments">
+            </div>
+            <!-- Treatment 4 -->
+            <div class="treatment-item">
+                <h4>Dandruff Treatment</h4>
+                <p>Our dandruff treatment involves specialized care to reduce scalp dryness and flakiness, using
+                    products that soothe and hydrate the scalp to prevent dandruff reoccurrence and restore scalp health.</p>
+                <img src="images/dandruff_treatment.jpg" alt="Dandruff Treatment">
+            </div>
+            <!-- Treatment 5 -->
+            <div class="treatment-item">
+                <h4>Laser Hair Restoration</h4>
+                <p>Laser hair restoration is a non-invasive treatment that uses low-level laser therapy to stimulate hair
+                    growth, improve blood flow to the scalp, and strengthen hair follicles, promoting healthier hair growth.</p>
+                <img src="images/laser_hair_restoration.jpg" alt="Laser Hair Restoration">
+            </div>
+            <!-- Treatment 6 -->
+            <div class="treatment-item">
+                <h4>Laser Hair Reduction</h4>
+                <p>Laser hair reduction is a long-term solution for unwanted hair. Using advanced laser technology, this
+                    treatment targets hair follicles to inhibit future hair growth, leaving your skin smooth and hair-free.</p>
+                <img src="images/laser_hair_reduction.jpg" alt="Laser Hair Reduction">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-white">
+        <div class="container py-5">
+            <div class="row mb-4">
+                <div class="col-lg-4 mb-3 mb-lg-0">
+                    <h1 class="footer-logo">Karthika's Aesthetic Centre</h1>
+                </div>
+                <div class="col-lg-4 mb-3 mb-lg-0">
+                    <div class="d-flex justify-content-center">
+                        <a href="https://www.facebook.com/beautyparlourcochin/" class="mx-2"><i class="fab fa-facebook-f fa-2x" style="color: #8a7a5c;"></i></a>
+                        <a href="https://www.instagram.com/karthikasaestheticcentre/?hl=en" class="mx-2"><i class="fab fa-instagram fa-2x" style="color: #8a7a5c;"></i></a>
+                        <a href="https://www.youtube.com/@karthikasprofessionalbeaut4228" class="mx-2"><i class="fab fa-youtube fa-2x" style="color: #8a7a5c;"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-3 mb-lg-0">
+                    <nav class="nav justify-content-center">
+                        <a class="nav-link px-2" href="Treatments.html">Treatments</a>
+                        <a class="nav-link px-2" href="About Us.html">About</a>
+                        <a class="nav-link px-2" href="Career.html">Careers</a>
+                    </nav>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-12 text-center">
+                    <h4 class="text-muted">Karthika's Aesthetic Centre</h4>
+                    <p class="mb-0">
+                        Kaloor - Kathrikadavu Road<br>
+                        Near Arabian Nights<br>
+                        Kaloor, Cochin, Kerala<br>
+                        682017
+                    </p>
+                </div>
+            </div>
+            <div class="row border-top pt-3">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    <p class="mb-0">&copy; 2024 Karthika's Aesthetic Centre. All rights reserved. All trademarks
+                        acknowledged.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <a href="#" class="me-3 text-decoration-none text-muted">Privacy Policy</a>
+                    <a href="#" class="text-decoration-none text-muted">Terms and Conditions</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

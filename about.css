@@ -1,0 +1,113 @@
+
+.about-section{
+    padding: 2px;
+}
+
+.first_div_about{
+    height: 350px;
+    width: 350px;
+    border-radius: 86px 164px 0px 98px;
+    -webkit-border-radius: 86px 164px 0px 98px;
+    -moz-border-radius: 86px 164px 0px 98px;
+    background: linear-gradient(126deg, #8A7A5C 14.57%, #C9B081 84.87%);
+    border: 7px groove rgba(191,172,140,0.82);
+}
+
+.sec_div_about {
+    height: 300px;
+    width: 300px;
+    border-radius: 111px 49px 154px 0px;
+    background: url('images/group image 2.jpg') no-repeat center center;
+    background-size: cover; /* Ensures the image covers the entire div */
+    border: 7px groove rgba(191, 172, 140, 0.82);
+    position: relative;
+    left: 50%;
+    top: 50px;
+}
+
+
+
+
+
+.third_div_about{
+    height: 350px;
+    width: 350px;
+    border-radius: 86px 164px 0px 98px;
+    -webkit-border-radius: 86px 164px 0px 98px;
+    -moz-border-radius: 86px 164px 0px 98px;
+    background: linear-gradient(126deg, #8A7A5C 14.57%, #C9B081 84.87%);
+    border: 7px groove rgba(191,172,140,0.82);
+    position: relative;
+    top: 40px;
+    left: 20%;
+}
+
+.fourth_div_about{
+    height: 300px;
+    width: 300px;
+    border-radius: 111px 49px 154px 0px;
+    -webkit-border-radius: 111px 49px 154px 0px;
+    -moz-border-radius: 111px 49px 154px 0px;
+    background: url('images/group image1.jpg') no-repeat center center;
+    background-size: cover; /* Ensures the image covers the entire div */
+
+    border: 7px groove rgba(191,172,140,0.82);
+
+    position: relative;
+    left: 50%;
+    top: 50px;
+}
+
+
+
+@media (min-width:1400px){
+    .first_div_about{
+       position: relative;
+    left: 10%;    }
+    
+    .sec_div_about {
+      position: relative;
+        left: 50%;
+        top: 50px;
+    }
+
+    .third_div_about{
+   position: relative;
+        top: 40px;
+        left: 30%;
+    }
+    .cont_about{
+        padding: 30px;
+        position: relative;
+        left: 10%;
+    }
+    
+}
+
+
+@media (max-width:786px){
+    .first_div_about{
+        height: 0px;
+        width:0px;
+    }
+
+    .third_div_about{
+     display: none;
+    }
+
+    .sec_div_about {
+    height: 250px;
+   width: 340px;
+    border-radius: 0px 0px 0px 0px;
+
+ 
+    }
+    .fourth_div_about{
+        height: 250px;
+        width: 250px;
+    }
+
+    .team-section{
+        margin-top: 200px;
+    }
+}
